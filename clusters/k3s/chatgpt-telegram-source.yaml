@@ -9,4 +9,3 @@ spec:
   ref:
     branch: master
   url: https://github.com/rusik69/chatgpt-telegram
-targetNamespace: chatgpt-telegram
