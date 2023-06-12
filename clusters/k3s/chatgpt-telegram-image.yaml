@@ -4,9 +4,8 @@ metadata:
   name: chatgpt-telegram
   namespace: chatgpt-telegram
 spec:
-  image: loqutus/chatgpt-telegram
+  image: hub.docker.com/loqutus/chatgpt-telegram
   interval: 1m
-  provider: generic
 ---
 apiVersion: image.toolkit.fluxcd.io/v1beta2
 kind: ImagePolicy
