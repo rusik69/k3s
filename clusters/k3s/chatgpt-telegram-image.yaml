@@ -1,0 +1,10 @@
+apiVersion: image.toolkit.fluxcd.io/v1alpha1
+kind: ImageRepository
+metadata:
+  name: chatgpt-telegram
+spec:
+  image: loqutus/chatgpt-telegram
+  interval: 1m
+  policy:
+    numerical:
+      order: asc
