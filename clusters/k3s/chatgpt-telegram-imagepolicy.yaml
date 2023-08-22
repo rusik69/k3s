@@ -5,7 +5,7 @@ metadata:
   namespace: chatgpt-telegram
 spec:
   imageRepositoryRef:
-    name: chatgpt-telegram
+    name: rusik69/chatgpt-telegram
   policy:
     numerical:
       order: asc
