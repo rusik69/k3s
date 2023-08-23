@@ -8,7 +8,6 @@ spec:
   chart:
     spec:
       chart: grafana-operator
-      version: '4.0.x'
       sourceRef:
         kind: HelmRepository
         name: grafana-operator
