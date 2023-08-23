@@ -4,5 +4,6 @@ metadata:
   name: grafana-operator
   namespace: monitoring
 spec:
-  interval: 5m
+  type: oci
+  interval: 1m
   url: oci://registry-1.docker.io/bitnamicharts/grafana-operator
