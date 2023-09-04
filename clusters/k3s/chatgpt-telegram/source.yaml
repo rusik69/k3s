@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: chatgpt-telegram
-  namespace: flux-system
+  namespace: chatgpt-telegram
 spec:
   interval: 30s
   ref:
