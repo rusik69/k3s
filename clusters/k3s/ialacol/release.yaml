@@ -15,4 +15,4 @@ spec:
       interval: 1m
   values:
     nodeSelector:
-        kubernetes.io/hostname: x230
+      kubernetes.io/hostname: x230
