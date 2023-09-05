@@ -13,3 +13,6 @@ spec:
         name: ialacol
         namespace: ialacol
       interval: 1m
+  selector:
+    matchExpressions:
+      - {key: beta.kubernetes.io/arch, operator: In, values: [amd64]}
