@@ -15,4 +15,4 @@ spec:
       interval: 1m
   values:
     nodeSelector:
-      kubernetes.io/hostname: x230
+      beta.kubernetes.io/arch: amd64
