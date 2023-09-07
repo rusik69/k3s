@@ -13,6 +13,6 @@ spec:
         name: ialacol
         namespace: ialacol
       interval: 1m
-  values:
-    nodeSelector:
-      beta.kubernetes.io/arch: amd64
+#  values:
+#    nodeSelector:
+#      beta.kubernetes.io/arch: amd64
