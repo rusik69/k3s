@@ -17,4 +17,4 @@ spec:
     dashboards:
       default:
         node-exporter:
-          url: https://grafana.com/api/dashboards/1860/revisions/23/download
+          url: https://grafana.com/api/dashboards/1860/revisions/32/download
