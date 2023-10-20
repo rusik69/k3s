@@ -18,3 +18,5 @@ spec:
       default:
         node-exporter:
           url: https://grafana.com/api/dashboards/1860/revisions/32/download
+  nodeSelector:
+    kubernetes.io/arch: amd64
